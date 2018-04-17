@@ -1,0 +1,135 @@
+Loading db file '/home/akw68/RegisterGran64/your_library.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : REG_FILE_128
+Version: M-2016.12
+Date   : Tue Apr 17 00:17:15 2018
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/akw68/RegisterGran64/your_library.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+REG_FILE_128           1000000           saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0
+                       540000            saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1
+                       540000            saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_0
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_1
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_2
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_3
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_4
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_5
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_6
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_7
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_8
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_9
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_10
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_11
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_12
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_13
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_14
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_15
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_16
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1_DW01_ash_17
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_0
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_1
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_2
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_3
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_4
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_5
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_6
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_7
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_8
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_9
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_10
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_11
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_12
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_13
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_14
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_15
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_16
+                       8000              saed90nm_typ
+SRAM_12R6W_CONFIG_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_0_DW01_ash_17
+                       8000              saed90nm_typ
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  42.0929 mW   (74%)
+  Net Switching Power  =  14.9276 mW   (26%)
+                         ---------
+Total Dynamic Power    =  57.0205 mW  (100%)
+
+Cell Leakage Power     =   3.3319 mW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     6.5071e+03          117.8125        5.5066e+08        7.1756e+03  (  11.89%)
+combinational  3.5586e+04        1.4810e+04        2.7812e+09        5.3177e+04  (  88.11%)
+--------------------------------------------------------------------------------------------------
+Total          4.2093e+04 uW     1.4928e+04 uW     3.3319e+09 pW     6.0353e+04 uW
+1

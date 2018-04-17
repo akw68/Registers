@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SRAM_12R6W_PIPE
+Version: M-2016.12
+Date   : Mon Apr 16 23:22:20 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: addr4wr_i[5]
+              (input port clocked by clk)
+  Endpoint: sram_reg[8][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SRAM_12R6W_PIPE    1000000               saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.01       0.01 r
+  addr4wr_i[5] (in)                        0.00       0.01 r
+  U24521/Z (DELLN1X2)                      0.76       0.77 r
+  U3771/QN (NOR3X0)                        1.42       2.18 f
+  U76478/Z (DELLN1X2)                      1.19       3.38 f
+  U31196/QN (NAND3X4)                      0.76       4.14 r
+  U34643/ZN (INVX0)                        0.73       4.87 f
+  U31858/ZN (IBUFFX16)                     0.78       5.65 r
+  U2598/Q (AND3X1)                         0.92       6.57 r
+  U2597/QN (NAND4X0)                       0.71       7.28 f
+  U31482/Q (AND2X4)                        0.58       7.85 f
+  U31481/ZN (IBUFFX16)                     0.87       8.73 r
+  U2572/Q (AO222X1)                        3.28      12.00 r
+  sram_reg[8][27]/D (DFFX2)                0.48      12.48 r
+  data arrival time                                  12.48
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.01       1.99
+  sram_reg[8][27]/CLK (DFFX2)              0.00       1.99 r
+  library setup time                      -0.08       1.91
+  data required time                                  1.91
+  -----------------------------------------------------------
+  data required time                                  1.91
+  data arrival time                                 -12.48
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -10.58
+
+
+1

@@ -1,0 +1,30 @@
+****************************************
+Report : area
+Design : SRAM_12R6W_PIPE
+Version: M-2016.12
+Date   : Mon Apr 16 22:30:58 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'SRAM_12R6W_PIPE' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ (File: /home/akw68/OriginalReg/your_library.db)
+
+Number of ports:                         7790
+Number of nets:                         67133
+Number of cells:                        64389
+Number of combinational cells:          60255
+Number of sequential cells:              4116
+Number of macros/black boxes:               0
+Number of buf/inv:                       7148
+Number of references:                      39
+
+Combinational area:             613604.050456
+Buf/Inv area:                    39525.581825
+Noncombinational area:          101921.585938
+Macro/Black Box area:                0.000000
+Net Interconnect area:          264309.213746
+
+Total cell area:                715525.636394
+Total area:                     979834.850140

@@ -1,0 +1,41 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SRAM_12R6W_PIPE
+Version: M-2016.12
+Date   : Tue Apr 17 00:35:23 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: addr0_i[6] (input port)
+  Endpoint: data0_o[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SRAM_12R6W_PIPE    1000000               saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  addr0_i[6] (in)                          0.00       0.00 r
+  U23829/QN (NOR2X0)                       9.85       9.85 f
+  U23873/QN (NAND2X0)                      0.91      10.76 r
+  U26280/Q (OA22X1)                        7.28      18.03 r
+  U26281/QN (NAND4X0)                      0.79      18.82 f
+  data0_o[31] (out)                        0.00      18.83 f
+  data arrival time                                  18.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

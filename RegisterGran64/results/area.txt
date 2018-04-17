@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : REG_FILE_128
+Version: M-2016.12
+Date   : Tue Apr 17 00:16:44 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'REG_FILE_128' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ (File: /home/akw68/RegisterGran64/your_library.db)
+
+Number of ports:                        11604
+Number of nets:                         77584
+Number of cells:                        66982
+Number of combinational cells:          62808
+Number of sequential cells:              4136
+Number of macros/black boxes:               0
+Number of buf/inv:                       7120
+Number of references:                       6
+
+Combinational area:             645787.235062
+Buf/Inv area:                    39370.753021
+Noncombinational area:          101921.585938
+Macro/Black Box area:                0.000000
+Net Interconnect area:          235600.477150
+
+Total cell area:                747708.820999
+Total area:                     983309.298149
+1

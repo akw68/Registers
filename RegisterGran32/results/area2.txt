@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : REG_FILE_128
+Version: M-2016.12
+Date   : Mon Apr 16 23:52:13 2018
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/akw68/RegisterGran32/your_library.db)
+
+Number of ports:                        16820
+Number of nets:                        102046
+Number of cells:                        90407
+Number of combinational cells:          86153
+Number of sequential cells:              4176
+Number of macros/black boxes:               0
+Number of buf/inv:                      23021
+Number of references:                      11
+
+Combinational area:             951055.257969
+Buf/Inv area:                   234912.156773
+Noncombinational area:          110882.303411
+Macro/Black Box area:                0.000000
+Net Interconnect area:          159789.580804
+
+Total cell area:               1061937.561380
+Total area:                    1221727.142185
+1

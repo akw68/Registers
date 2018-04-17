@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : REG_FILE_128
+Version: M-2016.12
+Date   : Tue Apr 17 00:01:59 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: addr0_i[3] (input port)
+  Endpoint: data0_o[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  REG_FILE_128       1000000               saed90nm_typ
+  SRAM_12R6W_CONFIG_SRAM_DEPTH32_SRAM_INDEX5_SRAM_WIDTH32_1
+                     280000                saed90nm_typ
+  REG_FILE_64_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1
+                     540000                saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  addr0_i[3] (in)                                         0.00       0.00 r
+  PhyRegFile1/addr0_i[3] (REG_FILE_64_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1)
+                                                          0.00       0.00 r
+  PhyRegFile1/PhyRegFile1/addr0_i[3] (SRAM_12R6W_CONFIG_SRAM_DEPTH32_SRAM_INDEX5_SRAM_WIDTH32_1)
+                                                          0.00       0.00 r
+  PhyRegFile1/PhyRegFile1/U57/QN (NOR2X0)                 8.68       8.68 f
+  PhyRegFile1/PhyRegFile1/U65/Q (AND2X1)                  0.88       9.56 f
+  PhyRegFile1/PhyRegFile1/U660/Q (AO22X1)                 4.78      14.34 f
+  PhyRegFile1/PhyRegFile1/U661/Q (AO221X1)                0.68      15.02 f
+  PhyRegFile1/PhyRegFile1/U668/QN (NOR4X0)                0.88      15.91 r
+  PhyRegFile1/PhyRegFile1/U669/QN (OAI22X1)               0.57      16.48 f
+  PhyRegFile1/PhyRegFile1/data0_o[30] (SRAM_12R6W_CONFIG_SRAM_DEPTH32_SRAM_INDEX5_SRAM_WIDTH32_1)
+                                                          0.00      16.48 f
+  PhyRegFile1/U1550/Q (MUX21X1)                           0.73      17.21 f
+  PhyRegFile1/data0_o[30] (REG_FILE_64_SRAM_DEPTH64_SRAM_INDEX6_SRAM_WIDTH32_1)
+                                                          0.00      17.21 f
+  U5480/Q (MUX21X1)                                       0.78      17.99 f
+  data0_o[30] (out)                                       0.00      17.99 f
+  data arrival time                                                 17.99
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
